@@ -21,8 +21,9 @@ const btnContainer = {
     height: '50px',
     borderRadius: '50%',
     backgroundColor: Colors.primary,
+    display: "flex",
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
 }
 
 const iconStyle = {

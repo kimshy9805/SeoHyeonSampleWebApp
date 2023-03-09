@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter } from "../../node_modules/react-router-dom/dist/index";
+import { Routes, Route } from "react-router-dom";
 
 import {
     MainPage,
@@ -10,16 +10,15 @@ import {
 } from '../pages/index';
 
 
-const Router = createBrowserRouter([
-    {
-        path: "/",
-        element: <MainPage />
-    },
-    {
-        path: "/support",
-        element: <SupportPage />
-    }
-])
 
+
+const Router = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/support" element={<SupportPage />} />
+        </Routes>
+    );
+}
 
 export default Router;

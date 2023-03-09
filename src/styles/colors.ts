@@ -1,7 +1,8 @@
 const Colors = {
     //Used frequently
-    primary: '#E74b50',
-    secondary: '#000000',
+    primary: '#e95953', // rgb(233, 89, 83)
+    primaryBlur: "eb645e", // rgb(235, 100, 94)
+    secondary: '#000000', 
 
     white: '#FFFFFF',
     black: '#020202',
